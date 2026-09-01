@@ -1,0 +1,38 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and Daemon output
+*.log
+!docs/logs/system_maintenance.log
+studio_daemon.log
+studio_daemon_err.log
+
+# Session data, cookies & credentials
+.env
+.env.local
+*.env
+dm_session_cache.json
+cookies.json
+browser_profile/
+session/
+
+# OS artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Processing outputs and local video caches
+Output/
+temp/
+*.tmp
+*.mp4
+*.mov
+*.avi
+!template.png
+!logo.png
